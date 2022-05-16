@@ -5,7 +5,7 @@ async function checkConnection(){
     try{
         connection = await oracledb.getConnection({
             user: "csanchez",
-            password: "csanchez_icesi2022!",
+            password: "nomecopies!",
             connectString: "200.3.193.24:1522/ESTUD"
         });
 
